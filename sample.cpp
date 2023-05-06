@@ -1,5 +1,4 @@
 #include <Eigen/Dense>
-#include <Eigen/Dense>
 #include <iostream>
 
 // g++ -I /usr/local/include/eigen3/ trial_1.cpp -o my_favorite_cpp_source_file
@@ -170,5 +169,19 @@ int main(int argc, char **argv)
     //Matrix transpose in place
     A1.transposeInPlace();//this is specific method just to get the transpose at the place itself A1=At.transpose() will not work at all
     cout<<endl<<"In place transpose of A1"<<endl<<A1<<endl;
+
+
+    MatrixXd abc(2, 2);
+    abc << 1, 2, 2, 4;
+    // Inverse of matrix
+    MatrixXd G1=abc.inverse();
+    cout<<endl<<"Inverse of matrix is"<<endl<<G1<<endl;
+    MatrixXd Z(2,2);
+    Z=abc*G1;
+    cout<<endl<<"Multiplication of matrix is"<<endl;
+    cout<<endl<<Z<<endl;
+
+    cout<<endl<<A.reshaped()<<endl;
+
 
 }
