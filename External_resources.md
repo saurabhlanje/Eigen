@@ -3,3 +3,6 @@
 
 ### Detailed reference material for Eigen ###
 ```https://cppsecrets.com/users/141731151079711010097114105641121044610510511611446979946105110/C00-EigenIntroduction.php```
+
+### Control System tool box using eigen ###
+```https://github.com/ethz-adrl/control-toolbox```
