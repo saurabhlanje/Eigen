@@ -14,7 +14,7 @@ In recent years, deep reinforcement learning methods provide a new realization i
 ```https://ieeexplore.ieee.org/document/10011921``
 
 ### Linear algebra libraries for embedded systems ###
-#### Itroduction ####
-This is a C-library for linear algebra which are ment to be used for embedded systems such as AVR, PIC, ARM etc. The library is easy built and follows as much as it can the MATLAB/Octave "standard", how to compute and solve matrices. This C-library using Lapack subroutines from Lapack version 3.2.1 and I have change this Lapack library so it don't require a specific CPU/computer or asking for a operative system. I want this library to have 100% portability.
+#### Introduction ####
+This is a C-library for linear algebra which are ment to be used for embedded systems such as AVR, PIC, ARM etc. The library is easy built and follows as much as it can the MATLAB/Octave "standard", how to compute and solve matrices. This C-library using Lapack subroutines from Lapack version 3.2.1 and I have change this Lapack library so it don't require a specific CPU/computer or asking for a operative system. I want this library to have 100% portability. MPC example is provided
 
 ```https://github.com/DanielMartensson/EmbeddedLapack```
